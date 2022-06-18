@@ -47,7 +47,7 @@
           <i class="material-icons">email</i>
         </div>
         <div class="text">
-          {{person.contact.email}}
+          <span>{{person.contact.email}}</span>
         </div>
       </div>
     </a>
@@ -59,11 +59,21 @@
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
-          <span>github.com/{{person.contact.github}}</span>
         </div>
       </div>
     </a>
 
+    <a v-if="person.contact.linkedin" :href="contactLinks.linkedin" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="text">
+          <span>@{{person.contact.linkedin}}</span>
+        </div>
+      </div>
+    </a>
+    
     <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">

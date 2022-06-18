@@ -2,31 +2,32 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Víctor Manuel
+  middle: Soto
+  last: Alexander
+  about: Ingeniero geofísico y desarrollador web con experiencia en lenguajes de programación diversos
+       como Python, Javascript, Java y Bash. Cuento con varios años de experiencia en programación,
+       busco constantemente ofrecer soluciones y optimizar procesos.
+position: Desarrollador Java Fullstack 
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Ciudad de México
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Proyecto Integrador Zintra
+  position: Desarrollador
+  timeperiod: Marzo 2022 - Junio 2022
+  description: Desarrollo de una Ecommerce cuyo productos son piezas de concreto como base para velas y plantas, utilizando tecnologías de Frontend, Backend y base de datos.
+  website: https://github.com/victoralexander132/Zintra
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Geoexplora S.A. de C.V.
+  position: Ingeniero Geofísico
+  timeperiod: Marzo 2021 - Abril 2022
+  description: Desarrollé en Bash programas de mantenimiento a equipos con sistema operativo GNU/Linux
+  website: https://geoexplora.com.mx/
 
 - company: Company C
   position: Trainee
@@ -34,14 +35,10 @@ experience:
   description: Making coffee and baking cookies.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+- degree: Ingeniería Geofísica
+  timeperiod: Agosto 2014 - Mayo 2019
+  description: Universidad Nacional Autónoma de México, Facultad de ingeniería, Ciudad de México, México.
   website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes from 0 to 100
 skills:
@@ -51,16 +48,21 @@ skills:
   level: 95
 - name: JavaScript
   level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
+- name: Bootstrap
+  level: 97
+- name: Java 11
+  level: 97
+- name: Springboot
+  level: 97
+- name: MySQL
+  level: 97
+- name: Python
+  level: 97
+- name: Git
+  level: 97
+- name: Bash
+  level: 97
+
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
@@ -73,7 +75,7 @@ projects:
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: Video Games
+- name: Videojuegos
   iconClass: fa fa-gamepad
   url: https://example.com
 
@@ -87,12 +89,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: alexandervictor550@gmail.com
+  phone: 5566769310
+  street: Tlalpan
+  city: Ciudad de México
+  linkedin: soto-alexander
+  github: victoralexander132
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: es
 `
