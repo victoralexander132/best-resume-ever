@@ -108,7 +108,7 @@
       <div class="title">
         <h2>{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</h2>
         <div class="description">{{ person.position }}</div>
-        <span class="about">{{ person.about }}</span>
+        <span class="about">{{ person.name.about }}</span>
       </div>
 
       <div class="section-headline experience">
@@ -150,22 +150,20 @@
       <div v-if="person.contributions" class="section">
         <div class="section-headline">
           <i class="section-headline__icon fa fa-heart" style="position: absolute; right: 10px;"></i>
-          {{ lang.contributions }}
+          SERVICIO SOCIAL
         </div>
 
-        <div class="block" v-for="(contribution, index) in person.contributions">
+        <div class="block" v-for="(contribution) in person.contributions">
           <a :href="contribution.url">
             <div class="block-helper"></div>
-            <div class="headline">{{ contribution.name }}</div>
-            <p class="info">{{ contribution.timeperiod }}, {{ contribution.description }}</p>
-
-            {{ contribution.url }}
+            <div class="headline">{{contribution.name}}</div>
+            <p class="info">{{ contribution.timeperiod }}<br> {{ contribution.description }}</p>
           </a>
         </div>
       </div>
 
-      <div class="hobbies-container">
-        <!-- <span class="subheadline">Hobbies</span> -->
+      <!-- <div class="hobbies-container">
+        <span class="subheadline">Hobbies</span>
         <div class="hobbies-content">
           <a
             v-for="(hobby, index) in person.hobbies"
@@ -177,7 +175,7 @@
             <span class="hobby-item__icon-label">{{ hobby.name }}</span>
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div style="clear:both;"></div>
