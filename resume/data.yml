@@ -2,7 +2,7 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: Víctor Manuel
+  first: Víctor 
   middle: Soto
   last: Alexander
   about: Ingeniero geofísico y desarrollador web con experiencia en lenguajes de programación diversos
@@ -20,7 +20,7 @@ experience:
 - company: Proyecto Integrador Zintra
   position: Desarrollador
   timeperiod: Marzo 2022 - Junio 2022
-  description: Desarrollo de una Ecommerce cuyo productos son piezas de concreto como base para velas y plantas, utilizando tecnologías de Frontend, Backend y base de datos.
+  description: Desarrollo de una Ecommerce cuyo productos son piezas de concreto como base para velas y plantas, utilizando tecnologías de frontend, backend y base de datos.
   website: https://github.com/victoralexander132/Zintra
 
 - company: Geoexplora S.A. de C.V.
@@ -29,64 +29,64 @@ experience:
   description: Desarrollé en Bash programas de mantenimiento a equipos con sistema operativo GNU/Linux
   website: https://geoexplora.com.mx/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+# - company: Company C
+#   position: Trainee
+#   timeperiod: March 2014 - December 2014
+#   description: Making coffee and baking cookies.
 
 education:
 - degree: Ingeniería Geofísica
   timeperiod: Agosto 2014 - Mayo 2019
   description: Universidad Nacional Autónoma de México, Facultad de ingeniería, Ciudad de México, México.
-  website: https://example.com
+  website: https://www.ingenieria.unam.mx/programas_academicos/licenciatura/geofisica.php
 
 # skill level goes from 0 to 100
 skills:
 - name: HTML5
-  level: 99
+  level: 90
 - name: CSS3
-  level: 95
+  level: 85
 - name: JavaScript
-  level: 97
+  level: 95
 - name: Bootstrap
-  level: 97
+  level: 100
 - name: Java 11
-  level: 97
+  level: 80
 - name: Springboot
-  level: 97
+  level: 75
 - name: MySQL
-  level: 97
+  level: 80
 - name: Python
-  level: 97
+  level: 95
 - name: Git
-  level: 97
+  level: 100
 - name: Bash
-  level: 97
+  level: 95
 
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Cuento con la certificación IELTS con un overall de 7.0 que me califica como proeficiente en inglés.
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: PAPIIT IT102019
+  platform: Python
+  timeperiod: Julio 2019 - Enero 2020
+  description: Desarrollo de un prototipo computacional para la inversión de datos de prospección eléctrica empleando multifuente.
+  url: https://gitlab.com/hcorzopola/geores
 
 # optional, not all resume templates have hobbies included
 hobbies:
 - name: Videojuegos
   iconClass: fa fa-gamepad
-  url: https://example.com
+  url: https://www.leagueoflegends.com/es-mx/
 
 - name: Drawing
   iconClass: fa fa-pencil
   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Manual de programación de Python
+  timeperiod: Septiembre 2018 - Marzo 2019
+  description: Elaboré un manual de cómo programar en Python enfocado a las aplicaciones en procesamiento de datos. Utilicé LaTeX para la redacción y compartí parte del código en un repositorio de GitHub.
+  url: https://github.com/victoralexander132/
 
 contact:
   email: alexandervictor550@gmail.com
