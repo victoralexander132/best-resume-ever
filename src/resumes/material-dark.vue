@@ -81,15 +81,37 @@
       </a>
 
       <div class="item">
-        <div class="section-headline">{{ lang.skills }}</div>
-        <div class="skill" v-for="skill in person.skills" :key="skill.name">
+        <div class="section-headline">Frontend</div>
+        <div class="skill" v-for="skill in person.front" :key="skill.name">
           <div class="right">
             <span>{{ skill.name }}&nbsp;</span>
-            <div class="progress">
-              <div class="determinate" :style="'width: ' + skill.level + '%;'">
-                <i class="fa fa-circle"></i>
-              </div>
-            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="section-headline">Backend</div>
+        <div class="skill" v-for="skill in person.back" :key="skill.name">
+          <div class="right">
+            <span>{{ skill.name }}&nbsp;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="section-headline">soft skills</div>
+        <div class="skill" v-for="skill in person.soft" :key="skill.name">
+          <div class="right">
+            <span>{{ skill.name }} <i></i>&nbsp;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="section-headline">Otras</div>
+        <div class="skill" v-for="skill in person.skills" :key="skill.name">
+          <div class="right">
+            <span>{{ skill.name }} <i></i>&nbsp;</span>
           </div>
         </div>
       </div>
@@ -156,8 +178,12 @@
         <div class="block" v-for="(contribution) in person.contributions">
           <a :href="contribution.url">
             <div class="block-helper"></div>
-            <div class="headline">{{contribution.name}}</div>
-            <p class="info">{{ contribution.timeperiod }}<br> {{ contribution.description }}</p>
+            <div class="headline">{{ contribution.name }}</div>
+            <p class="info">
+              {{ contribution.timeperiod }}
+              <br />
+              {{ contribution.description }}
+            </p>
           </a>
         </div>
       </div>
@@ -175,7 +201,7 @@
             <span class="hobby-item__icon-label">{{ hobby.name }}</span>
           </a>
         </div>
-      </div> -->
+      </div>-->
     </div>
 
     <div style="clear:both;"></div>
@@ -539,6 +565,7 @@ h4 {
 #myselfpic {
   background-image: url("../../resume/id.jpg");
   color: black;
+  height: 200px;
 }
 #githubIcon {
   width: 25px;

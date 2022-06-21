@@ -40,22 +40,37 @@ education:
   description: Universidad Nacional Autónoma de México, Facultad de ingeniería, Ciudad de México, México.
   website: https://www.ingenieria.unam.mx/programas_academicos/licenciatura/geofisica.php
 
-# skill level goes from 0 to 100
-skills:
+front:
 - name: HTML5
   level: 90
+  icon: fa fa-brands fa-html5
 - name: CSS3
   level: 85
+  icon: fa fa-brands fa-css3
 - name: JavaScript
   level: 95
+  icon: fa fa-brands fa-js
 - name: Bootstrap
   level: 100
+  icon: fa fa-brands fa-bootstrap
+  
+back:
 - name: Java 11
   level: 80
 - name: Springboot
   level: 75
 - name: MySQL
   level: 80
+
+soft:
+- name: Gestión del tiempo
+- name: Creatividad
+- name: Colaboración
+- name: Adaptabilidad
+- name: Resiliencia
+
+# skill level goes from 0 to 100
+skills:
 - name: Python
   level: 95
 - name: Git
