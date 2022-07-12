@@ -5,9 +5,9 @@ name:
   first: Víctor 
   middle: Soto
   last: Alexander
-  about:  Cuento con experiencia en lenguajes de programación diversos como Python, Javascript, Java y Bash. Tengo habilidades de desarrollo web en el frontend y backend.
-          Busco constantemente ofrecer soluciones y optimizar procesos.
-position: Desarrollador Java Fullstack 
+  about:  I have experience in various programming languages such as Python, Javascript, Java and Bash. I have web development skills on the frontend and backend.
+          I constantly seek to offer solutions and optimize processes
+position: Junior Java Developer
 
 birth:
   year: 1996
@@ -16,16 +16,16 @@ birth:
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Proyecto Integrador Zintra
-  position: Desarrollador
-  timeperiod: Marzo 2022 - Junio 2022
-  description: Desarrollo de una Ecommerce cuyo productos son piezas de concreto como base para velas y plantas, utilizando tecnologías de frontend, backend y base de datos.
+- company: Integrative Project Zintra
+  position: Java Developer
+  timeperiod: March 2022 - June 2022
+  description: Development of an Ecommerce whose products are concrete pieces as bases for candles and plants, using frontend, backend and object-oriented programming.
   website: https://github.com/victoralexander132/Zintra
 
 - company: Geoexplora S.A. de C.V.
-  position: Ingeniero Geofísico
-  timeperiod: Marzo 2021 - Abril 2022
-  description: Desarrollé en Bash programas de mantenimiento a equipos con sistema operativo GNU/Linux
+  position: Geophysical Engineer
+  timeperiod: March 2021 - April 2022
+  description: I developed maintenance programs in Bash for computers with the GNU/Linux operating system.
   website: https://geoexplora.com.mx/
 
 # - company: Company C
@@ -34,9 +34,9 @@ experience:
 #   description: Making coffee and baking cookies.
 
 education:
-- degree: Ingeniería Geofísica
-  timeperiod: Agosto 2014 - Mayo 2019
-  description: Universidad Nacional Autónoma de México, Facultad de ingeniería, Ciudad de México, México.
+- degree: Geophysical Engineering
+  timeperiod: August 2014 - May 2019
+  description: Universidad Nacional Autónoma de México, Mexico City, Mexico.
   website: https://www.ingenieria.unam.mx/programas_academicos/licenciatura/geofisica.php
 
 front:
@@ -60,13 +60,15 @@ back:
   level: 75
 - name: MySQL
   level: 80
+- name: Hibernate
+  level: 80
 
 soft:
-- name: Gestión del tiempo
-- name: Creatividad
-- name: Colaboración
-- name: Adaptabilidad
-- name: Resiliencia
+- name: Time management
+- name: Problem solving
+- name: Communication
+- name: Teamwork
+- name: Patience
 
 # skill level goes from 0 to 100
 skills:
@@ -77,13 +79,13 @@ skills:
 - name: Bash
   level: 95
 
-knowledge: Cuento con la certificación IELTS con un overall de 7.0 que me califica como proeficiente en inglés.
+knowledge: Also proeficient in english with a 7.0 overall band on the IELTS Academic Test.
 
 projects:
 - name: PAPIIT IT102019
   platform: Python
-  timeperiod: Julio 2019 - Enero 2020
-  description: Desarrollo de un prototipo computacional para la inversión de datos de prospección eléctrica empleando multifuente.
+  timeperiod: July 2019 - January 2020
+  description: Development of a computational prototype for the inversion of electrical data using multisource.
   url: https://gitlab.com/hcorzopola/geores
 
 # optional, not all resume templates have hobbies included
@@ -97,9 +99,9 @@ hobbies:
   url: https://example.com
 
 contributions:
-- name: Manual de programación de Python
+- name: Python Programming Manual
   timeperiod: Septiembre 2018 - Marzo 2019
-  description: Elaboré un manual de cómo programar en Python enfocado a las aplicaciones en procesamiento de datos. Utilicé LaTeX para la redacción y compartí parte del código en un repositorio de GitHub.
+  description: I developed a manual on how to program in Python focused on geophysical data and its processing. I used LaTeX for writing and shared some of the code in a GitHub repository.
   url: https://github.com/victoralexander132/
 
 contact:
@@ -110,5 +112,5 @@ contact:
   linkedin: soto-alexander
   github: victoralexander132
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: es
+lang: en
 `

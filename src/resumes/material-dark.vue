@@ -172,7 +172,7 @@
       <div v-if="person.contributions" class="section">
         <div class="section-headline">
           <i class="section-headline__icon fa fa-heart" style="position: absolute; right: 10px;"></i>
-          SERVICIO SOCIAL
+          VOLUNTEERING
         </div>
 
         <div class="block" v-for="(contribution) in person.contributions">
